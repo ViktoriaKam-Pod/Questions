@@ -1,0 +1,49 @@
+body {
+  background-color: antiquewhite;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(188, 156, 218);
+  justify-content: space-around;
+  margin: 2% 25%;
+}
+label {
+  padding-right: 25px;
+}
+
+#btn {
+  border: none;
+  padding: 15px 100px;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#btn:hover {
+  border: 1px solid white;
+  padding: 14px 99px;
+}
+#result {
+  font-weight: 700;
+}
+@media all and ( max-width:855px ){
+  form {
+    margin: 2% 4%;
+  }
+}
+@media all and ( max-width:500px ){
+  #btn {
+    padding: 15px 25px;
+  }
+  #btn:hover {
+    padding: 14px 24px;
+  }
+  label {
+    display: block;
+  }
+  
+}
